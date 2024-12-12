@@ -1,4 +1,4 @@
-import chalk from 'chalk'; // qwert
+import chalk from 'chalk'; // asdfqwert
 
 console.log(chalk.blue('It works'));
 
