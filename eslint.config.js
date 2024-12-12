@@ -4,22 +4,15 @@ import pluginJs from '@eslint/js';
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
-    languageOptions:
-      {
-        globals:
-          globals.browser,
-      },
+    languageOptions: {
+      globals: globals.browser,
+    },
   },
-  pluginJs
-    .configs
-    .recommended,
+  pluginJs.configs.recommended,
   {
-    rules:
-      {
-        'prefer-const':
-          'error',
-        eqeqeq:
-          'error',
-      },
+    rules: {
+      'prefer-const': 'error',
+      eqeqeq: 'error',
+    },
   },
 ];
