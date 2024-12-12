@@ -2,4 +2,8 @@ import chalk from 'chalk'; // asdfqwert
 
 console.log(chalk.blue('It works'));
 
-let myUnusedVariable = 'unnecessaryAccordingToLinter' == 1;
+const myUsedConstant = "unnecessaryAccordingToLinter" === "1";
+console.log(
+    `The value of the constant is ${myUsedConstant}`,
+    "(this is kind of stupid but it's just to demonstrate the linter 🙂)",
+);
