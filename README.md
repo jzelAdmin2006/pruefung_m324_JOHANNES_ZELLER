@@ -1,1 +1,1 @@
-# pruefung_m324_JOHANNES_ZELLER
+# Prüfung M324
